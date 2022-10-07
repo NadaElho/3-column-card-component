@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-weight: 400;
+}
+main{
+    display: flex;
+    justify-content: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 900px;
+}
+@media (max-width: 900px) {
+    main{
+        flex-direction: column;
+        margin: 20px;
+    }
+}
+main .box{
+    max-width: 300px;
+    padding: 45px;
+}
+main .box:first-child{
+    background-color: hsl(31, 77%, 52%);
+}
+main .box:nth-child(2){
+    background-color: hsl(184, 100%, 22%);
+}
+main .box:last-child{
+    background-color: hsl(179, 100%, 13%);
+}
+main .box .title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+main .box p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.6;
+}
+main .box .btn{
+    text-align: center;
+    margin-top: 90px;
+    background-color: hsl(0, 0%, 95%);
+    padding: 15px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+    width: 130px;
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 95%);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+@media (max-width: 900px) {
+    main .box .btn{
+        margin-top: 20px;
+    }
+}
+main .box:first-child .btn{
+    color: hsl(31, 77%, 52%);
+}
+main .box:nth-child(2) .btn{
+    color: hsl(184, 100%, 22%);
+}
+main .box:last-child .btn{
+    color: hsl(179, 100%, 13%);
+}
+main .box .btn:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
