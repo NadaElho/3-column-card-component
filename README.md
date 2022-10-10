@@ -22,7 +22,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-![download (1)](https://user-images.githubusercontent.com/90730411/194921181-6522449b-7471-4bdf-812a-53543680fcbb.png)
+![Frontend-Mentor-3-column-preview-card-component](https://user-images.githubusercontent.com/90730411/194922012-8e782396-19b0-4821-a504-57c527d5090a.png)
 ![download](https://user-images.githubusercontent.com/90730411/194921216-88d4cf3f-ce49-46e9-83b3-b0297fc22558.png)
 
 
